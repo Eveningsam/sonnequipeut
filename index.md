@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "Accueil"
+title: Accueil
 ---
 
-# Bienvenue sur mon blog
-
-Voici mes articles :
+<h1>Bienvenue sur mon blog</h1>
+<p>Voici mes articles :</p>
 
 <ul>
-{% for page in site.pages %}
-  {% if page.path contains "articles/" and page.name == "index.md" %}
-    <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a> – {{ page.date | date: "%Y-%m-%d" }}</li>
-  {% endif %}
-{% endfor %}
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span>({{ post.date | date: "%d %B %Y" }})</span>
+    </li>
+  {% endfor %}
 </ul>
