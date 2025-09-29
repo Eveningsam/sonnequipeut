@@ -1,4 +1,15 @@
-title: "Sonn Qui Peut"
-description: "Blog migré depuis WordPress"
-baseurl: ""
-url: "https://Eveningsam.github.io"
+title: "Sonne qui peut"
+description: "Mon blog migré depuis WordPress"
+url: "https://eveningsam.github.io"
+baseurl: "/sonnequipeut"   # car ton repo s'appelle sonnequipeut
+
+theme: minima   # thème par défaut de Jekyll
+
+# Collections pour utiliser ton dossier articles/
+collections:
+  articles:
+    output: true   # génère une page HTML pour chaque article
+    permalink: /articles/:path/   # URL des articles
+
+# Options de markdown
+markdown: kramdown
