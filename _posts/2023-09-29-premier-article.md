@@ -1,4 +1,10 @@
 ---
+layout: post
+title: "premier-article"
+date: 2023-09-29
+---
+
+---
 title: "Mon premier article"
 date: 2023-09-28
 layout: post
