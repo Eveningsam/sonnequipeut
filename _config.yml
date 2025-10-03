@@ -1,8 +1,6 @@
 title: "Sonne qui peut"
 description: "Mon blog migré depuis WordPress"
-url: "https://eveningsam.github.io"
-baseurl: "https://eveningsam.github.io"   # correct pour repo non user site
-
+url: "https://eveningsam.github.io"   # domaine GitHub Pages
+baseurl: "/sonnequipeut"             # NOM DU DÉPÔT uniquement
 theme: minima
-
 markdown: kramdown
