@@ -1,6 +1,6 @@
 title: "Sonne qui peut"
 description: "Mon blog migré depuis WordPress"
 url: "https://eveningsam.github.io"
-baseurl: "https://eveningsam.github.io"
+baseurl: "/sonequipeut"
 theme: minima
 markdown: kramdown
